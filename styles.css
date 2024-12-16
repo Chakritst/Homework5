@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chakra Petch", serif;
+}
+
+.topbar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    text-decoration: none;
+
+}
+
+.topbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 22px;
+    
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.left img{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 15px
+}
+
+.right img {
+    height: 30px;
+    width: 30px;   
+}
+
+.content{
+    height: 90vh;
+}
+
+h1{
+    font-size: 40px;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.docs {
+    height: 300px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 400px;
+    background-color: rgb(255, 255, 255);
+    /* border: 3px solid black; */
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 13px 33px -2px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 5px 13px 33px -2px rgba(0,0,0,0.54);
+    -moz-box-shadow: 5px 13px 33px -2px rgba(0,0,0,0.54);
+}
+
+.docs img{
+    height: 20px;
+    width: 20px;
+}
+
+.binicon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    padding: 60px;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: aquamarine;
+}
+
+.box-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-text {
+    font-size: 16px;
+}
+
+h3{
+    margin-top: -70px;
+    margin-left: 100px;
+}
+
+.rightselection1 .line2{
+   margin-left: 95px;
+}
+
+.rightselection2 .line2{
+    margin-left: 95px;
+ }
+ 
+
+h4{
+    margin-left: 100px;
+}
+
+
+.slides {
+    height: 300px;
+    width: 600px;
+    margin-left: 400px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    /* border: 3px solid black; */
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 13px 33px -2px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 5px 13px 33px -2px rgba(0,0,0,0.54);
+    -moz-box-shadow: 5px 13px 33px -2px rgba(0,0,0,0.54);
+    
+}
+
+.slides img{
+    height: 20px;
+    width: 20px;
+}
+
+.box2{
+    padding: 60px;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(163, 97, 81);
+}
+
+.box-title2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-text2 {
+    font-size: 16px;
+}
+
+
+.right-selection .order {
+    margin-top: -650px;
+    margin-left: 1100px;
+    border-radius: 20px;
+    padding: 20px;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(205, 196, 196, 0.685);
+}
+
+.right-selection img{
+    width: 30px;
+    height: 30px;
+}
+
+.order .line1{
+    font-size: 30px;
+}
+
+.order .line2{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.order .line2 p3{
+    margin-left: 300px;
+}
+
+.order .line3 input{
+    
+    height: 40px;
+    width: 300px;
+}
+
+.order .line3 button{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 2px aquamarine solid;
+    color: rgb(68, 181, 143);
+    cursor: pointer;
+
+}
+
+.order .line3 img{
+    width: 40px;
+    height: 40px;
+    margin-bottom:-10px;
+
+}
+
+.order .line4{
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.order .line4 p5{
+    margin-left: 255px;
+}
+
+.order .line5{
+   
+    display: flex;
+    justify-content: center;
+}
+
+.order .line5 button{
+    height: 40px;
+    width: 200px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
